@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     public float gravityModifier;
     public ParticleSystem explosionParticle;
     public ParticleSystem dirtParticle;
+    public int hp = 3;
 
     public AudioClip jumpSfx;
     public AudioClip crashSfx;
